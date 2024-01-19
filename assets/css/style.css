@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --discord-header-bg: rgba(49, 97, 224, 1);
+    --discord-lighter: rgba(255, 255, 255, 1);
+    --discord-darker: rgba(35, 39, 42, 1);
+    --discord-footer-text: rgba(113, 136, 217, 1);
+    --discord-footer-btn: rgba(142, 161, 225, 1);
+}
+
 /* #endregion common */
 
 /* #region utilities */

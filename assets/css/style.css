@@ -1,0 +1,164 @@
+/* #region common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion common */
+
+/* #region utilities */
+
+.flex-container {
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 2rem 0;
+}
+
+/* #endregion utilities */
+
+/* #region header */
+
+header {
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.header {
+    background-color: orange;
+}
+
+.logo {
+    border: 2px dashed black;
+    padding: 0.3rem;
+    flex-grow: 1;
+}
+
+nav {
+    border: 2px dashed black;
+    padding: 0.3rem;
+    justify-content: space-around;
+    flex-grow: 5;
+}
+
+.login {
+    border: 2px dashed black;
+    padding: 0.3rem;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+/* #endregion header */
+
+/* #region main */
+    /* #region main_header */
+#main_header {
+    background-color: blue;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.main_header {
+    background-color: plum;
+    border: 2px dashed black;
+}
+    /* #endregion main_header */
+    /* #region main_body */
+.middle {
+    background-color: lightgray;
+}
+
+.main_img {
+    width: 60%;
+    background-color: lightskyblue;
+    border: 2px dashed black;
+}
+
+.main_text {
+    width: 40%;
+    background-color: pink;
+    padding: 1rem;
+    border: 2px dashed black;
+}
+    /* #endregion main_body */
+    /* #region main_footer */
+#main_footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.main_footer{
+    background-color: green;
+    border: 2px dashed black;
+}
+
+.main_footer_img {
+    width: 60%;
+    height: 300px;
+    background-color: palegoldenrod;
+    margin: auto;
+}
+    /* #rendegion main_footer */
+/* #endregion main */
+/* #endregion main */
+
+/* #region footer */
+footer {
+    background-color: black;
+}
+    /* #region footer_top */
+#footer_top {
+    border-bottom: 2px solid white;
+}
+
+.footer_top {
+    justify-content: ;
+}
+.footer_text {
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+    background-color: brown;
+    border: 2px dashed black;
+}
+
+.footer_nav {
+    background-color: aqua;
+    justify-content: space-around;
+    flex-grow: 6;
+    flex-wrap: wrap;
+}
+
+.footer_nav_list>ul {
+    list-style: none;
+}
+.footer_nav_list {
+    border: 2px dashed white;
+    padding: 0 2rem;
+}
+    /* #endregion footer_top */
+    /* #region footer_bottom */
+.footer_bottom {
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    background-color: pink;
+    padding: 0.3rem;
+    border: 2px dashed black;
+}
+.footer_btn {
+    background-color: pink;
+    padding: 0.3rem;
+    border: 2px dashed black;
+}
+    /* #endregion footer_bottom */
+
+/* #endregion footer */

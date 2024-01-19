@@ -31,6 +31,10 @@ p {
     padding: 1rem 0;
 }
 
+ul {
+    list-style: none;
+}
+
 /* #endregion common */
 
 /* #region utilities */
@@ -135,39 +139,40 @@ nav {
 
 /* #region footer */
 footer {
-    background-color: black;
+    background-color: var(--discord-darker);
 }
     /* #region footer_top */
-#footer_top {
-    border-bottom: 2px solid white;
+.footer_top{
+    border-bottom: 2px solid;
+    border-bottom-color: var(--discord-footer-text);
 }
 
 .footer_text {
     width: 30%;
     text-align: center;
-    padding: 1rem;
-    background-color: brown;
-    border: 2px dashed black;
+    flex-grow: 2;
 }
 
-.footer_nav {
-    background-color: aqua;
-    justify-content: space-around;
-    flex-grow: 6;
-    flex-wrap: wrap;
+.nation_flag {
+    height: 1rem;
 }
 
-.footer_nav_list>ul {
-    list-style: none;
+.footer_title {
+    color: var(--discord-footer-text);
+    padding-bottom: 1rem;
 }
+
+.language {
+    color: var(--discord-lighter);
+}
+
 .footer_nav_list {
-    border: 2px dashed white;
     padding: 0 2rem;
+    flex-grow: 1;
 }
     /* #endregion footer_top */
     /* #region footer_bottom */
 .footer_bottom {
-    background-color: aquamarine;
     justify-content: space-between;
 }
 

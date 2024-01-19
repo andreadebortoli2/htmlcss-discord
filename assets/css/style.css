@@ -27,7 +27,7 @@ button {
 }
 
 p {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 /* #endregion common */
@@ -48,27 +48,30 @@ p {
     width: 40%;
 }
 
+.pad-tb {
+    padding: 5rem 0;
+}
+
 /* #endregion utilities */
 
 /* #region header */
 
 header {
     background-color: var(--discord-header-bg);
-    padding: 1rem 0;
 }
 
 .logo {
+    align-self: center;
     flex-grow: 1;
 }
 
 nav {
-    padding: 0.3rem;
+    align-items: center;
     justify-content: space-around;
     flex-grow: 2;
 }
 
 .login {
-    padding: 0.3rem;
     justify-content: flex-end;
     flex-grow: 1;
 }
@@ -99,17 +102,13 @@ nav {
     background-color: lightgray;
 }
 
-.main_img {
-    width: 60%;
-    background-color: lightskyblue;
-    border: 2px dashed black;
+.main_img{
+    height: 400px;
 }
 
 .main_text {
     width: 40%;
-    background-color: pink;
-    padding: 1rem;
-    border: 2px dashed black;
+    padding: 2rem;
 }
     /* #endregion main_body */
     /* #region main_footer */

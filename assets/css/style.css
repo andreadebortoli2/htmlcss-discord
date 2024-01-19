@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 :root {
     --discord-header-bg: rgba(49, 97, 224, 1);
     --discord-lighter: rgba(255, 255, 255, 1);
@@ -115,12 +119,23 @@ nav {
     width: 40%;
     padding: 2rem;
 }
+
+.svg_color_path_white {
+    fill: var(--discord-lighter);
+}
+
+.svg_color_path_gray {
+    fill: var(--discord-light);
+}
+
+.divider {
+    height: 50px;
+}
     /* #endregion main_body */
     /* #region main_footer */
 #main_footer {
     background-color: var(--discord-light);
     text-align: center;
-    padding: 2rem 0;
 }
 
 .main_footer{

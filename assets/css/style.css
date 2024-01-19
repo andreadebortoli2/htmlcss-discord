@@ -23,6 +23,11 @@ button {
     border-radius: 1.5rem;
     padding: 0.3rem 0.7rem;
     border: none;
+    margin: 1rem;
+}
+
+p {
+    padding: 1rem;
 }
 
 /* #endregion common */
@@ -35,7 +40,12 @@ button {
 
 .container {
     margin: auto;
-    width: 80%;
+    width: 70%;
+}
+
+.container_small {
+    margin: auto;
+    width: 40%;
 }
 
 /* #endregion utilities */
@@ -68,14 +78,20 @@ nav {
 /* #region main */
     /* #region main_header */
 #main_header {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 550px;
     text-align: center;
-    padding: 2rem 0;
+    justify-content: center;
 }
 
-.main_header {
-    background-color: plum;
-    border: 2px dashed black;
+.mh_text {
+    color: var(--discord-lighter);
+}
+
+#mh_open {
+    color: var(--discord-lighter);
+    background-color: var(--discord-darker);
 }
     /* #endregion main_header */
     /* #region main_body */

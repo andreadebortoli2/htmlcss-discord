@@ -14,6 +14,17 @@
     --discord-footer-btn: rgba(142, 161, 225, 1);
 }
 
+a {
+    text-decoration: none;
+    color: var(--discord-lighter);
+}
+
+button {
+    border-radius: 1.5rem;
+    padding: 0.3rem 0.7rem;
+    border: none;
+}
+
 /* #endregion common */
 
 /* #region utilities */
@@ -25,7 +36,6 @@
 .container {
     margin: auto;
     width: 80%;
-    padding: 2rem 0;
 }
 
 /* #endregion utilities */
@@ -33,29 +43,21 @@
 /* #region header */
 
 header {
-    background-color: aquamarine;
-    justify-content: center;
-}
-
-.header {
-    background-color: orange;
+    background-color: var(--discord-header-bg);
+    padding: 1rem 0;
 }
 
 .logo {
-    border: 2px dashed black;
-    padding: 0.3rem;
     flex-grow: 1;
 }
 
 nav {
-    border: 2px dashed black;
     padding: 0.3rem;
     justify-content: space-around;
-    flex-grow: 5;
+    flex-grow: 2;
 }
 
 .login {
-    border: 2px dashed black;
     padding: 0.3rem;
     justify-content: flex-end;
     flex-grow: 1;
@@ -125,9 +127,6 @@ footer {
     border-bottom: 2px solid white;
 }
 
-.footer_top {
-    justify-content: ;
-}
 .footer_text {
     width: 30%;
     text-align: center;

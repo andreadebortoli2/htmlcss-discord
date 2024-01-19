@@ -134,6 +134,11 @@ nav {
     background-repeat: no-repeat;
     padding-top: 1rem;
 }
+
+#main_footer_btn {
+    color: var(--discord-lighter);
+    background-color: var(--discord-footer-btn);
+}
     /* #endregion main_footer */
 /* #endregion main */
 
@@ -177,14 +182,12 @@ footer {
 }
 
 .footer_logo {
-    background-color: pink;
-    padding: 0.3rem;
-    border: 2px dashed black;
+   padding-top: 1rem;
 }
-.footer_btn {
-    background-color: pink;
-    padding: 0.3rem;
-    border: 2px dashed black;
+
+#footer_btn {
+    background-color: var(--discord-footer-btn);
+    margin: 1rem 0;
 }
     /* #endregion footer_bottom */
 

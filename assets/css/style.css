@@ -67,6 +67,8 @@ ul {
 
 header {
     background-color: var(--discord-header-bg);
+    border-bottom: 4px solid;
+    border-bottom-color: var(--discord-header-bg);
 }
 
 .logo {
